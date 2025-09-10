@@ -11,7 +11,7 @@ función debería invocar?
 def dia_del_anio(dia,mes,año):
     total=0 #Valor acumulable para guardar valores 
     if Ejercicio4_7.fecha_valida(dia,mes,año): #Revisa si es la fecha valida si no lo es sigue adelante
-        for m in range(1,mes): #El bucle itera la cantidad de dias en un mes y los suma en el valro total
+        for m in range(1,mes): #El bucle itera la cantidad de dias en un mes y los suma en el valor total
             total+=Ejercicio4_6.cant_dias_mes(m,año)
         return total+dia 
     else:

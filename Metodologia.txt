@@ -1,0 +1,56 @@
+METOODOLOGIA
+#Un sistema puede requerir una progamacion muy compleja
+#Un programa de una complejidad media di
+
+
+·Paso.
+#Analisis.
+#Especificaciones.
+#Diseño.
+#Implementacion.
+#Prueba.
+#Mantenimiento.
+
+·Analisis.
+#Buscamos entender lo que se pide.
+#Es probabñe que quien nos encarga el programa no sepa informar.
+#Es probable que no seamos expèrtos en el problema a resolver.
+#El Analisis es una tarea del programador "Hacia su interior".
+#Si no entiende que se pide,pregunta.
+#Si algo sigue indefinido, lo define.
+
+·Especificaciones.
+#Ya entendimos lo que se nos pide#Conocemos nuestas limitaciones(de 
+tiempo, de recursos o de crecimiento).
+#En base a esos, pensando en el sistema como una "caja negra", definimos:
+-Que recibe.
+-Que hace en su interior.
+-Que entrega como salida.
+Con todo lo anterior 
+"Armamos un documento con las caracteristicas que le"
+#La especificacion es una tarea del programador.
+-"Hacia el exterior", para valida las definiciones.
+-"Hacia el interior". porque sera el compromiso ineludible que debera 
+cumplir el sistema a desarrollar
+
+·Diseño,
+#Con la especificacion valida, buscamos dividir el sistema "total" en
+varios modulos funcionales, de desarrollar mas sencillo.
+#Se hacen las especificaciones:
+-De cada modulo y de las interacciones entre ellos mismos.
+#Una buena especificacion de los modulos individuales logra que:
+-Cuando desarrollo un modulo, puedo olvidarme de todos los otros
+-Distintos programadoores pueden desarrolllar distintos modulos en forma
+independiente; luego sera sencillo de integralos.
+-Cada modulo puede ser probado independiente antes de la integracion final.
+
+·Implementacion.
+#Se codifica cada modulo en base a lo determinado en el Diseño.
+#Ahora si, Programamos en el lenguaje elejido(Por ahora, para nosotros python).
+#
+
+·Prueba.
+#Se estable un protocolo de pruebas.
+#Cada moduloo debe ser probado individualmente.
+#Se van integrando los modulos y se prueban sus interrelaciones.
+#El producto final de esta estapa es el Sistema Final Funcionando

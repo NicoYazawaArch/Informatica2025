@@ -16,9 +16,11 @@ def es_potencia_de_dos(n):
         n=n/2
     return n==1 #Si n es 1, retorna True. Si no, retorna False.
 def main():
-    print(f"¿Es 8 una potencia de 2? {es_potencia_de_dos(8)}")
+    for i in range (0,21):
+        print(f"Es potencia, {i} ,{es_potencia_de_dos(i)}")
+    """print(f"¿Es 8 una potencia de 2? {es_potencia_de_dos(8)}")
     print(f"¿Es 16 una potencia de 2? {es_potencia_de_dos(16)}")
     print(f"¿Es 1 una potencia de 2? {es_potencia_de_dos(1)}")
     print(f"¿Es 12 una potencia de 2? {es_potencia_de_dos(12)}")
-    print(f"¿Es 0 una potencia de 2? {es_potencia_de_dos(0)}")
+    print(f"¿Es 0 una potencia de 2? {es_potencia_de_dos(0)}")"""
 main()

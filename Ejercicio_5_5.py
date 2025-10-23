@@ -6,13 +6,14 @@ imprimir el promedio correspondiente y el valor de la calificación más baja.
 def main():
     notas_total=0
     cant=0
-    nota_minima=10000
+    nota_minima=10000 #Utiliza un valor absurdo para poder sobrescribirse luego
     ingreso=input("Quiere ingresar notas escriba si o no: ")
-    while ingreso.lower() == "si":
+    
+    while ingreso.lower() == "si": #ingreso.lower() utilizar para que cualquier valor de si sea validoo aunqque este en mayuscula
         nota=int(input("Ingrese valor de la nota: "))
         cant+=1
         notas_total+=nota
-        if nota<nota_minima :
+        if nota<nota_minima : #Evalua cual es la nota mas baja y sobre escribe el valor de nota_minima
             nota_minima=nota
 
         ingreso=input("Quiere volver a ingresar notas escriba si o no: ")
@@ -21,7 +22,7 @@ def main():
         print("Promedio de las notas: ",promedio)
         print("Nota mas baja: ", nota_minima)
     else:
-        print("No se ingresaron Notas")
+        print("No se ingresaron Notas.")
         print("----Exit----")
 main()
 
